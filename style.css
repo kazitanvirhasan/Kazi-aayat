@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    display: inline;
+    font-family:'Poppins', sans-serif;;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 25px;
+    font-style: italic;
+
+}
+ul{
+    display: inline;
+    margin-left: 905px;
+    top: 12px;
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+li{
+    display: inline;
+    padding: 13px;
+    margin: 1px;
+    transition: 0.5s;
+}
+body{
+    background-image: url(gas.jpg);
+    background-size: cover;
+    position: relative;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #000;
+    position:relative;
+    
+}
+li:hover{
+    border: 1px solid #7f8c8d;
+    background-color: #636e72;
+    
+}
+.nav{
+    top: 1px;
+    background-color: #34495e;
+    height: 45px;
+}
+.first-img img {
+    width: 500px;
+    float: left;
+    position: absolute;
+    border: 3px solid #7d5fff ;
+    border-radius: 8px;
+    left: 45px;
+}
+.first-img{
+    height: 338px;
+    top: 250px;
+    position: relative;
+}
+.first-img #first-txt h1{
+    color: #fff;
+    font-family: sans-serif;
+    top: 50px;
+    position: relative;
+    font-weight: 500;
+}
+.first-img #first-txt h2{
+    position: relative;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    top: 80px;
+    margin-left: 25px;
+    margin: 8px;
+    margin-left: 25px;
+}
+.first-img #first-txt{
+    height: 333px;
+    width: 750px;
+    left: 565px;
+    position: absolute;
+    color: #000;
+    
+}
+.scn-img{
+    height: 338px;
+    top: 250px;
+    position: relative;
+    top: 400px;
+    color: #000;
+}
+.scn-img img{
+    width: 500px;
+    float: right;
+    position: absolute;
+    border: 3px solid #7d5fff ;
+    border-radius: 8px;
+    right: 45px;
+    z-index: 22;
+}
+.scn-img #scn-txt{
+    height: 333px;
+    width: 750px;
+    right: 565px;
+    position: absolute;
+    color: #000; 
+}
+.scn-img #scn-txt p{
+    position: relative;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 500;
+    top: 80px;
+    margin-left: 25px;
+    margin: 8px;
+    margin-left: 25px;
+}
+#last{
+    background-color: #34495e;
+    text-align: center;
+    align-items: center;
+}
+#last .para h2{
+    font-family: sans-serif ;
+    font-size:40px;
+    font-weight: bold;
+}
+#last .icons{
+    font-size: 50px;
+    background-color:#2c3e50;
+}
+#last .para p{
+    margin: 0px 200px;
+}
